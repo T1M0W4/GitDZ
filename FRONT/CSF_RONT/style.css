@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+img{
+    align-items: center;
+}
+p{
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 30px;
+    text-decoration: none;
+    font-family: 'Noto Sans Tai Viet', sans-serif;
+}
+u{
+    text-decoration: inherit;
+}
+.text_1{
+    color: blue;   
+
+}
+.text_2{
+    color: red;
+
+}
+.text_3{
+color: orange;
+
+}
+.text_4{
+color: yellow;
+
+}
+.text_5{
+color: green;
+
+}
+.text_6{    
+color: cyan;
+
+}
+.text_7{
+color: blue;
+
+}
+body{
+    background-color: black;
+}
