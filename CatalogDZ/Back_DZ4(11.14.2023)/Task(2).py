@@ -1,8 +1,5 @@
-user_float_num = input("Введите дробное число:")
-user_int_num = input("Количество дробей:")
-
-user_float_num = float(user_float_num)
-user_int_num = int(user_int_num)
+user_float_num = float(input("Введите дробное число:"))
+user_int_num = int(input("Количество дробей:"))
 
 user_round_num = round(user_float_num, user_int_num)
 
