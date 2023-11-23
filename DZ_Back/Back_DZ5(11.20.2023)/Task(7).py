@@ -1,7 +1,18 @@
-thre_dig_num = int(input("Введите трехзначное число: "))
+thre_dig_num = input("Введите трехзначное число: ")
 
-sec_num = (thre_dig_num // 10 % 10)
-#VN:      ^                       ^  скобки не нужны
+try:
+    tdn = int(thre_dig_num)
+except ValueError:
+    print("Вы ввели не число!")
+    exit()
+else:
+    try:
+        if tdn < 100 or tdn > 999:
+            raise ValueError()
+    except ValueError:
+        print("Вы ввели не целое трехзначное число!")
+        exit()
 
-print("Ваше двухзначное число: ", sec_num)
-#VN:        ^^^^^^^^^^^  наверное, вы имели в виду "Вторая цифра вашего числа: "
+sec_num = tdn // 10 % 10
+
+print("Вторая цифра вашего числа: ", sec_num)

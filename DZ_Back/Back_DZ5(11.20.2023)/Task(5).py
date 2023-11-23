@@ -1,6 +1,18 @@
-a = int(input("Введите значение а:"))
-b = int(input("Введите значение b:"))
+a = input("Введите значение а:")
 
-x = -b/a
+try:
+    a = int(a)
+except ValueError:
+    print("Вы ввели не целое число!")
+    exit()
+else:
+    try:
+        b = input("Введите значение b:")
+        b = int(b)
+    except ValueError:
+        print("Вы ввели не целое число!")
+        exit()    
+
+x = - b/a
 
 print("значение х:", x)
