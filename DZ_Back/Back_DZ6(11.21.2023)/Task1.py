@@ -27,4 +27,4 @@ else:
     elif num == 9:
         print("(")
     
-        
+   ХУЙ ПИЗДА     
