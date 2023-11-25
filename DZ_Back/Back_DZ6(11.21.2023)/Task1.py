@@ -1,7 +1,7 @@
 user_num = input("Введите число от 0 до 9: ")
 
 if len(user_num) > 1:
-    print("Вы ввели больше чисел!")
+    print("Вы ввели больше чисел, или это вовсе не числа!")
 try:
     num = int(user_num)
 except ValueError:
