@@ -7,6 +7,7 @@ except ValueError:
 else:
     try:
         user_int_num = input("Количество дробей в целом числе:")
+        #VN: ^^^^^^^^^^^^^^^^^ эта строка в блоке try не нужна - она не вызывает исключения
         
         int_num = int(user_int_num)
     except ValueError:
