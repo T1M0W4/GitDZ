@@ -1,22 +1,18 @@
-num1 = ""
-num2 = ""
-
-buff_num = 1
-
-while not int() and num2 != int(num2):
-    num1 = int(input("Введите первое число: "))
-    
-        
-    num2 = input("Введите второе число: ")
+while True:
     try:
-        num2 = int(num2)
+        sum_value1 = int(input("Введите первое число: "))
+        break
     except ValueError:
-        print("Вы ввели не число!")
+        print('некорректный ввод. введите целое число.')
 
-print("zaebok")
+while True:
+    try:
+        sum_value2 = int(input("Введите второе число: "))
+        break
+    except ValueError:
+        print('некорректный ввод. введите целое число.')
 
-   
 
-
+n = sum_value1 + sum_value2
     
-    
+print(n)
