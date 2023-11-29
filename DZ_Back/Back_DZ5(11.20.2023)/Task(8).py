@@ -5,7 +5,8 @@ salary = 250
 try:
     user_sal =  int(user_sal)
 except ValueError:
-    print("Вы ввели не целое число!")    
+    print("Вы ввели не целое число!")
+    exit()    
 
 salary += user_sal*0.1
 
