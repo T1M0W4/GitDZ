@@ -4,7 +4,20 @@ try:
     float_num = float(user_float_num)
 except ValueError:
     print("Вы ввели не дробное число!")
+<<<<<<< HEAD
     exit()
+=======
+else:
+    try:
+        user_int_num = input("Количество дробей в целом числе:")
+        #VN: ^^^^^^^^^^^^^^^^^ эта строка в блоке try не нужна - она не вызывает исключения
+        
+        int_num = int(user_int_num)
+    except ValueError:
+        print("Вы ввели не целое число!")
+    else:
+        user_round_num = round(float_num, int_num)
+>>>>>>> 53b3a4ffefc116e844fe5be1eba03844e2f0e9ef
 
 user_int_num = input("Количество дробей в целом числе:")
 
