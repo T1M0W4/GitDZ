@@ -9,5 +9,6 @@ except ValueError:
     exit()    
 
 salary += user_sal*0.1
+#VN:  ^^^^^^^^^^^  тут будет падение, если пользователь введёт текст
 
 print("Ваша полная зарплата: ", salary)
