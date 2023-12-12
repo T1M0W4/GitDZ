@@ -1,1 +1,5 @@
-info.almaty@itstep.kz я русский
+info.almaty@itstep.kz
+almaty@itstep.kz
+info.alma=ty@itstep.kz
+info.almaty@google.com.kz
+info.almaty@@itstep.kz
