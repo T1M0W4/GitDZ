@@ -11,6 +11,6 @@ while day < len(week) or day == len(week):
     
     day += 1
     
-    if day == 6:
+    if day == 7:
         day = 0
     
