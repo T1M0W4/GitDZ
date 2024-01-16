@@ -19,6 +19,7 @@ while zero == zero:
         if user_sign in ('+', '-', '*', '/'):
             break
         elif user_sign in "00":
+            #VN: здесь ^^ лучше использовать проверку на равенство: ==
             print("Сеанс окончен, спасибо!")
             exit()          
         else:
