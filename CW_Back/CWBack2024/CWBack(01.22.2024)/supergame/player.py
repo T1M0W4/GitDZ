@@ -1,17 +1,16 @@
 import pygame as pg
 
-class Player():
+class Player:
     size = (0,0)
     position = (0,0)
-    color = "green"
-    sprite = None
+    sprite = {}
+    
     frame = 0
     surface: pg.Surface = None
 
-def __init__(self, size, position, color):
+def __init__(self, size, position, controls)
     self.size = size
     self.position = position
-    self.color = color
     self.sprite = pg.image.load('resources\GG_mage\mage-dark.png')
     self.surface = pg.Surface((self.size))
     update(self.surface)
