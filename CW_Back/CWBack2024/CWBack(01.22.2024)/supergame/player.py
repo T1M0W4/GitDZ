@@ -4,7 +4,6 @@ class Player:
     size = (0,0)
     position = (0,0)
     sprite = {}
-    
     frame = 0
     surface: pg.Surface = None
 

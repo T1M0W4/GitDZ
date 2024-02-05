@@ -10,7 +10,9 @@ icon = pg.image.load('resources/icons/robe.png')
 pg.display.set_icon(icon)
 screen = pg.display.set_mode((1024, 768))
 bg_color = "gray"
-me = Player((24, 34), (512-25, 384-25), "magenta")
+me = Player((24, 34), (512-25, 384-25), controls =(
+                {"key": pg.K_UP, "animation": "up", "move": ()}
+))
 bg = pg.image.load('resources/background/dunge.png')
 
 
