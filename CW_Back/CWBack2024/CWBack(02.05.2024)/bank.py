@@ -2,7 +2,7 @@ class Acc:
     __balance = {}
     
 
-    def __init__(self, __tenge, __dolar, __euro, __yen):
+    def __init__(self, __tenge, __dolar, __euro , __yen):
         self.__balance["tenge"] = __tenge
         self.__balance["dolar"] = __dolar
         self.__balance["euro"] = __euro
@@ -17,3 +17,7 @@ class Acc:
 class Monee:
     __volume = 0
     __currency = ''
+
+tg = 2000
+
+kaspi = Acc(tg, )    
