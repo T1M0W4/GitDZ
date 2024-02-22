@@ -19,3 +19,4 @@ class Listener:
         while self.running:
             data, addr = self.sock.recvfrom(1024)
             message = data.decode('utf8')
+            self.controller.on_message_received(message, addr[0])
